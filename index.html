@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Emotion Detection</title>
+
+<script defer src="https://unpkg.com/face-api.js@0.22.2/dist/face-api.min.js"></script>
+<script defer src="script.js"></script>
+
+<style>
+
+body{
+text-align:center;
+font-family:Arial;
+background:#f2f2f2;
+}
+
+.container{
+position:relative;
+width:720px;
+margin:auto;
+}
+
+video{
+width:720px;
+height:560px;
+border:3px solid black;
+}
+
+canvas{
+position:absolute;
+top:0;
+left:0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Real Time Emotion Detection</h2>
+
+<div class="container">
+<video id="video" width="720" height="560" autoplay muted></video>
+</div>
+
+</body>
+</html>
